@@ -1,0 +1,123 @@
+body{
+    background-color: aliceblue;
+    font-family: arial;
+}
+
+#header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 20px 5px 20px;
+}
+#header img{
+    height: auto;
+    width: 7rem;
+    text-align: left;
+}
+#header #link{
+    float: right;
+    margin-top: 2rem;
+}
+#header a{
+    margin-right: 2rem;
+    color: #b30f0f;
+    text-decoration: none;
+    transition: 500ms;
+}
+#header a:hover{
+    color: #e26666;
+}
+
+#header-banner{
+    /* background-image: url(/Images/hulk.jpg); */
+    background: linear-gradient(#b30f0fc6, #3a29d7c1), url(Images/hulk.jpg);
+    background-size: cover;
+    padding: 9rem 3rem 9rem 3rem;
+}
+#header-banner h1{
+    color: #fff;
+}
+#header-banner p{
+    color: #d6d6d6;
+    width: 50%;
+    line-height: 25px;
+}
+#header-banner button{
+    padding: 10px 25px;
+    background-color: rgba(0, 0, 128, 0);
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 2rem;
+    transition: 500ms;
+}
+#header-banner button:hover{
+    background-color: #fff;
+    color: #b30f0f;
+}
+
+
+/* ABOUT US */
+#about-us{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+#about-us h1{
+    font-size: 35px;
+    display: inline;
+    color: #b30f0f;
+    /* text-shadow: 4px 4px 4px #b30f0f; */
+}
+#about-us p{
+    padding: 10px;
+}
+#about-us fieldset{
+    border: 2px solid gold;
+}
+
+/* SERVICES */
+#services{
+    margin-bottom: 6rem;
+    background-color: gold;
+    padding: 50px;
+}
+#services h1{
+    font-size: 35px;
+    border-bottom: 3px solid #ffffff;
+    width: 17%;
+}
+#services h2{
+    display: inline;
+}
+#services p{
+    margin-bottom: 2rem;
+}
+
+
+/* CONTACT */
+#contact{
+    margin-bottom: 6rem;
+    text-align: center;
+}
+#contact h1{
+    font-size: 35px;
+}
+#contact input{
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 1rem;
+    border: 0px;
+    transition: 500ms;
+}
+#contact input:hover{
+    box-shadow: 2px 2px #000;
+}
+#contact textarea{
+    width: 51%;
+    margin-bottom: 1rem;
+    border: 0px;
+}
+#contact button{
+    padding: 10px 20px;
+}

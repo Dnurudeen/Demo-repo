@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table{
+            text-align: center;
+        }
+        .tr1{
+            height: 6rem;
+        }
+        .tr1 td{
+            border: 0;
+        }
+        #tr2{
+            height: 17rem;
+        }
+        #tr3{
+            height: 17rem;
+        }
+        #tr4{
+            height: 8rem;
+        }
+        #tr5{
+            height: 8rem;
+        }
+        #tr6{
+            height: 11rem;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" width="100%">
+        <tr class="tr1">
+            <td>001</td>
+            <td>001</td>
+            <td>001</td>
+            <td>001</td>
+            <td>001</td>
+            <td>001</td>
+        </tr>
+        <tr id="tr2">
+            <td colspan="1" rowspan="5">002</td>
+            <td colspan="5">002</td>
+        </tr>
+        <tr id="tr3">
+            <td colspan="2">003</td>
+            <td colspan="3">003</td>
+        </tr>
+        <tr id="tr4">
+            <td colspan="3">004</td>
+            <td colspan="2" rowspan="2">004</td>
+        </tr>
+        <tr id="tr5">
+            <td colspan="3">005</td>
+        </tr>
+        <tr id="tr6">
+            <td colspan="5">006</td>
+        </tr>
+    </table>
+</body>
+</html>

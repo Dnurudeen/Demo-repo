@@ -1,0 +1,17 @@
+#header-banner{
+    /* background-image: url(/Images/hulk.jpg); */
+    background: linear-gradient(#b30f0fc6, #3a29d7c1), url(Images/hulk.jpg);
+    background-size: cover;
+    padding: 12rem 3rem 9rem 3rem;
+}
+
+
+#about-us{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+#contact{
+    margin-bottom: 6rem;
+    text-align: center;
+}
